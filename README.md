@@ -1,4 +1,4 @@
-#  Farm Input Cost Optimizer
+#  AgriProfit 
 
 A web-based financial decision tool designed to help smallholder farmers calculate production costs, determine break-even prices, and estimate expected profit or loss before selling their crops.
 

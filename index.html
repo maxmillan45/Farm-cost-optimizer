@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link tailwindcss href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
+    <script src="https://cdn.tailwindcss.com"></script>
 <body>
-    <h1>Farm Input Cost Optimizer</h1>
-<nav>
-    <ul>
+<nav class="bg-green-100 p-4">
+    <ul class="flex items-center justify-between space-x-4 text-black-700">
+    <h1 class="text-3xl font-bold  text-green-700 ">Farm Input Cost Optimizer</h1>
+   
         <li><a href="#">Home</a></li>
         <li><a href="#">News and Updates</a></li>
         <li><a href="#">Geographical Tools</a></li>
@@ -20,16 +20,40 @@
     </ul>
 </nav>
 
+    <div class="slideshow-container">
+        <!-- Slides -->
+        <div class="mySlides fade">
+            <img src="assets/zarla-farm-website-examples-5184x3456-20240519.jpeg" style="width:100%">
+            <div class="text">Caption One</div>
+            <p class="description">Access our tools and resources for optimizing farm input costs.</p>
+            <button>Learn More</button>
+        </div>
 
+        <div class="mySlides fade">
+            <img src="assets/people-team-tablet-farm-trade-agriculture-production-online-inspection-checklist-collaboration-professional-gardening-website-crop-management-quality-control-report_590464-514825.jpeg" style="width:100%">
+            <div class="text">Caption Two</div>
+            <p class="description">Stay updated with the latest news and trends in agriculture.</p>
+            <button>Learn More</button>
+        </div>
 
+        <div class="mySlides fade">
+            <img src="assets/greenhouse-2096497_1920-1024x683.jpeg" style="width:100%">
+            <div class="text">Caption Three</div>
+            <p class="description">Ask questions to our experts and get personalized advice.</p>
+            <button>Learn More</button>
+        </div>
 
+        <!-- Navigation Buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
 
-
-
-
-
-
-
-    
+    <!-- Navigation Dots -->
+    <div style="text-align:center; margin-top: 15px;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+ 
 </body>
 </html>
