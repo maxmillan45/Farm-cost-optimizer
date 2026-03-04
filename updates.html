@@ -3,7 +3,32 @@
 <head>
     <script src="https://cdn.tailwindcss.com"></script>
     <meta charset="UTF-8">
-<section class="max-w-6xl mx-auto p-4">
+<nav class="bg-green-100 px-6 flex items-center justify-between h-16">
+  <div class="flex items-center gap-3">
+    <a href="index.html" class="flex items-center space-x-3">
+      <img src="assets/images.png" class="w-10 h-10 rounded-full object-cover">
+      <span class="text-3xl font-bold text-green-700">AgriProfit</span>
+    </a>
+  </div>
+
+  <ul class="flex items-center space-x-6 text-black">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="tools.html">Features</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="expert.html">Ask</a></li>
+  </ul>
+
+  <div class="hamburger md:hidden" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+
+
+<section class=" text-center max-w-6xl mx-auto p-4">
   <h2 class="text-3xl font-bold mb-6 text-green-700">Farm News & Updates</h2>
 
   <!-- Search bar -->

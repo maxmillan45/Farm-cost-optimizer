@@ -28,7 +28,7 @@ const articles = [
     title: "Pest Control Methods",
     description: "Eco-friendly ways to protect your crops from pests.",
     url: "#",
-    image: "assets/pests.jpg",
+    image: "assets/pest.jpg",
     tags: ["pests", "crops", "farming"]
   },
   {
