@@ -7,25 +7,37 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <nav class="bg-green-100 p-4">
-    <ul class="flex items-center justify-between space-x-4 text-black-700">
-    <h1 class="text-3xl font-bold  text-green-700 ">Farm Input Cost Optimizer</h1>
-   
-        <li><a href="index.html">Home</a></li>
-        <li><a href="news.html">News and Updates</a></li>
-        <li><a href="tools.html">Geographical Tools</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="expert.html">Ask an expert</a></li>
-    </ul>
+   <nav class="bg-green-100 px-6 flex items-center justify-between h-16">
+  <div class="flex items-center gap-3">
+    <a href="index.html" class="flex items-center space-x-3">
+      <img src="assets/images.png" class="w-10 h-10 rounded-full object-cover">
+      <span class="text-3xl font-bold text-green-700">AgriProfit</span>
+    </a>
+  </div>
+
+  <ul class="flex items-center space-x-6 text-black">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="tools.html">Features</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="expert.html">Ask</a></li>
+  </ul>
+
+  <div class="hamburger md:hidden" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
 </nav>
+  
 <section class="bg-green-50 py-20">
   <div class="max-w-7xl mx-auto px-6">
 
     <!-- Title -->
     <div class="text-center mb-14">
       <h2 class="text-4xl font-bold text-green-900 mb-4">
-        🌱 Latest News & Updates
+         Latest News & Updates
       </h2>
       <p class="text-green-700 max-w-2xl mx-auto">
         Get the latest farming insights, price updates, and smart profit strategies.
@@ -45,12 +57,17 @@
 
         <div class="absolute bottom-0 p-6 text-white">
           <span class="bg-lime-400 text-green-900 text-xs px-3 py-1 rounded-full font-semibold">
-            Market Update
+            Weather Update
           </span>
 
           <h3 class="text-2xl font-bold mt-3">
-            Maize Prices Increase by 12%
+            Check the weather forecast before your next planting season.
           </h3>
+          
+</button>
+          <button id="learnMoreButton" class="bg-green-700 text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-green-600 transition duration-300 mt-2">
+            Learn More
+          </button>
 
           <p class="text-sm mt-2 text-green-100">
             Farmers advised to re-check break-even prices before selling.
@@ -114,9 +131,10 @@
 
     <!-- Button -->
     <div class="text-center mt-14">
-      <button class="bg-green-700 text-white px-10 py-3 rounded-full font-semibold shadow-lg hover:bg-green-600 transition duration-300">
-        View All News
-      </button>
+     <a href="updates.html">
+  <button class="bg-green-700  text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-green-600 transition duration-300 mt-6">
+    View All Updates
+  </button>
     </div>
 
   </div>
@@ -184,7 +202,9 @@
   </div>
 
 </footer>
-<script src="news.js"></script>
+
+<script src="js/news.js"></script>
+<script src="js/updates.js"></script>
     
 </body>
 </html>

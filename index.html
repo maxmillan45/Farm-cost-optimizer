@@ -7,22 +7,33 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://cdn.tailwindcss.com"></script>
 <body>
-<nav class="bg-green-100 p-4">
-    <ul class="flex items-center justify-between space-x-4 text-black-700">
-    <h1 class="text-3xl font-bold  text-green-700 ">Farm Input Cost Optimizer</h1>
-   
-        <li><a href="index.html">Home</a></li>
-        <li><a href="news.html">News and Updates</a></li>
-        <li><a href="tools.html">Geographical Tools</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-        <li><a href="expert.html">Ask an expert</a></li>
-    </ul>
+   <nav class="bg-green-100 px-6 flex items-center justify-between h-16">
+  <div class="flex items-center gap-3">
+    <a href="index.html" class="flex items-center space-x-3">
+      <img src="assets/images.png" class="w-10 h-10 rounded-full object-cover">
+      <span class="text-3xl font-bold text-green-700">AgriProfit</span>
+    </a>
+  </div>
+
+  <ul class="flex items-center space-x-6 text-black">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="tools.html">Features</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="expert.html">Ask</a></li>
+  </ul>
+
+  <div class="hamburger md:hidden" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
 </nav>
 <section class="hero">
     <div class="overlay">
-      <div class="hero-content">
-        <h1>Farm Input Cost Optimizer</h1>
+      <div class="hero-content ">
+        <h1>AgriProfit</h1>
         <p>
           Calculate your break-even price, estimate profit, and make smarter farming decisions.
         </p>

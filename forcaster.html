@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecasting Tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+ <nav class="bg-green-100 px-6 flex items-center justify-between h-16">
+  <div class="flex items-center gap-3">
+    <a href="index.html" class="flex items-center space-x-3">
+      <img src="assets/images.png" class="w-10 h-10 rounded-full object-cover">
+      <span class="text-3xl font-bold text-green-700">AgriProfit</span>
+    </a>
+  </div>
+
+  <ul class="flex items-center space-x-6 text-black">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="tools.html">Features</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="expert.html">Ask</a></li>
+  </ul>
+
+  <div class="hamburger md:hidden" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+<body class="font-sans">
+    <header class="bg-green-500 p-24 text-center text-white">
+        <h1 class="text-5xl font-bold mb-10 tracking-wide">Weather Dashboard</h1>
+        <p class="text-lg font-semibold w-[60%] mx-auto">Get real-time weather information for your location and search for weather conditions in cities around the world.</p>
+    </header>
+    <main class="max-w-7xl mx-auto p-6">
+        <div class="bg-green-100 p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-4">Current Weather</h2>
+            <p class="text-lg">Temperature: 25°C</p>
+            <p class="text-lg">Condition: Sunny</p>
+            <p class="text-lg">Humidity: 60%</p>
+        </div>
+
+        <div class="mt-10 bg-green-100 p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold mb-4">Search Weather by City</h2>
+            <input type="text" placeholder="Enter city name" class="w-full p-3 rounded border border-gray-300 mb-4">
+            <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition duration-300">Search</button>
+        </div>
+        
+
+
+
+    
+
+    <script src="js/news.js"></script>
+</body>
+</html>
